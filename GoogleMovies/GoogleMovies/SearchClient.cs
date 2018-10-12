@@ -70,8 +70,11 @@ namespace GoogleMovies
             releaseDate = r.ReleaseDate;
         }
 
-
-
+        private void printItem()
+        {
+            Console.WriteLine("Items printed");
+        }
+        
         private void keys()
         {
             apiKey = "";
